@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "powerdrill",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "The Power Drill Mod",
+  "description": "Adds drills to Minecraft.",
   "authors": [
-    "Me!"
+    "Johannes Copeland"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://johannescopeland.com",
+    "sources": "https://github.com/johannescopeland/mc-powerdrill-mod"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.johannescopeland.mc.Powerdrill"
     ]
   },
   "mixins": [
